@@ -42,7 +42,7 @@ def Decrypt(string_text, int_key):
     x = ''.join(collection) # put list back into single string
     return x
 def Get_input():
-    '''Interacts with user. Returns one of: '1', '2', '3', '4'.'''
+    '''Interacts with user and shows menu. Returns any input.'''
     print('MAIN MENU:')
     print('1) Encode a string')#options
     print('2) Decode a string')
@@ -51,8 +51,7 @@ def Get_input():
     return choice
 
 
-def Print_menu():
-  '''Prints menu. No user interaction. '''
+
   
   
 def main(): 
