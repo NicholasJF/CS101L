@@ -9,7 +9,7 @@
 ##
 ## ALGORITHM : 
 ##      1. Create min_mpg function. This gets the min mpg from the user. If below 1 repeat, If above 100 repeat, if value error repeat. If the user num passes all the mpg is returned.
-##      2. Create a function that asks user to enter vehicle file. If user enters an invalid file tell them then repeate.
+##      2. Create a function that asks user to enter vehicle file. If user enters an invalid file tell them then repeat.
 ##      3. Create a function asks the user for what file they want to output. Have the file be write a. If IOERROR repeate function. Return open file.
 ##      4. Create a function that takes the file from step 2 and read each line of the file as a list. Make line a nested list. Return nested list.
 ##      5. Create function that outputs the file. The function takes in the list from step 4, the mpg from step 1, and the outfile from step 3. Check if each combined mpg of each nested list is below the mpg entered. If not write to file.  If invalid entered print an statment telling what was not entered.
